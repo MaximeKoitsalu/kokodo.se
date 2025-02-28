@@ -24,7 +24,7 @@
 	}
 
 	h1 {
-		background-image: url("effect.gif");
+		background-image: url("/effect.gif");
 		background-size: cover;
 		color: transparent;
         background-clip: text;
