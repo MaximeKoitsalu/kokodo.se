@@ -3,11 +3,16 @@
 </main>
 
 <style>
+
+:global(body) {
+	color: #333;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 	main {
 		height: 100vh;
-		display: flex;
-		justify-content: center;
-		align-items: center;
 		background-color: #111;
 		font-family: "Major Mono Display";
 		text-align: center;
@@ -19,11 +24,10 @@
 	}
 
 	h1 {
-		background-image: url("/images/effect.gif");
+		background-image: url("effect.gif");
 		background-size: cover;
 		color: transparent;
-		-moz-background-clip: text;
-		-webkit-background-clip: text;
+        background-clip: text;
 		text-transform: uppercase;
 		font-size: 10vw;
 	}
